@@ -8,12 +8,15 @@
 
 void print_times_table(int n)
 {
-	int x, y, z;
+	int x;
+	int z;
 
 	if (n >= 0 && n <= 14)
 	{
 		for (x = 0; x <= n; x++)
-		{
+		{	
+			int y;
+
 			z = x * y;
 			if (z > 99)
 			{
