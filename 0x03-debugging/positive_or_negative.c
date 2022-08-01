@@ -8,7 +8,8 @@
  * Return: Always 0 (Success)
  *
  */
-
+int positive_or_negative()
+{
 int main(void)
 {
 	int n;
@@ -29,4 +30,5 @@ int main(void)
 		printf("%d is zero\n", n);
 	}
 	return (0);
+}
 }
